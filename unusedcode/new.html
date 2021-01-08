@@ -1,0 +1,12 @@
+<?php
+ if(isset($_POST['submit']))
+ {
+   $output=shell_exec('sh /home/sean/Desktop/ResumeWriter/RUNME.sh https://www.internsg.com/job/icg-asia-pacific-pte-ltd-associate-consultant-business-development-sales-lead-generation/');
+   echo $output;
+   echo "https://www.internsg.com/job/icg-asia-pacific-pte-ltd-associate-consultant-business-development-sales-lead-generation/";
+ }
+?>
+
+<form action="" method="post">
+<input type="submit" name="submit" value="Call my Shell Script">
+</form>
