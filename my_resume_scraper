@@ -1,0 +1,17 @@
+#!/bin/bash
+saveLocation="/home/sean/Desktop/ResumeWriter"
+echo Please state the job website e.g. https://www.internsg.com/job/tkh-security-and-airport-solutions-asia-pte-ltd-assoicate-engineer/
+read site
+out="out"
+
+if [ ! -w $saveLocation ]
+then
+	echo Please let me write to the save location
+	exit
+else
+	test -f $saveLocation/$out.json && rm $saveLocation/$out.json
+fi
+
+cd ResumeWriter/ResumeWriter/spiders/
+
+scrapy crawl my-resume-spider -a link=$site -a driver=/home/sean/Downloads/chromedriver -o "$saveLocation/$out.json"

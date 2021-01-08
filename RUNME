@@ -1,0 +1,4 @@
+#!/bin/bash
+./my_resume_scraper
+python textToJsonConvert.py
+python filter.py
