@@ -209,3 +209,15 @@ Memory
 Acuity
 Recall
 Questioning
+Python
+C
+C++
+C#
+Scala
+Java
+AWS
+Customer Service
+Retail
+Meticulous
+Accounting
+Finance

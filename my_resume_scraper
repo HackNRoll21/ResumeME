@@ -14,4 +14,4 @@ fi
 
 cd ResumeWriter/ResumeWriter/spiders/
 
-scrapy crawl my-resume-spider -a link=$site -a driver=/home/sean/Downloads/chromedriver -o "$saveLocation/$out.json"
+scrapy crawl my-resume-spider -a link=$site -a driver=/home/sean/Desktop/ResumeWriter/driver/chromedriver -o "$saveLocation/$out.json"
