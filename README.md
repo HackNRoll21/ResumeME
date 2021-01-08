@@ -27,19 +27,21 @@ Python 3
 Scrapy
 Selenium
 
+
 Objective of ResumeME
 
 To craft the path for each individual to find and be prepared for embarking on their journey to success with the perfect job.
 
+
 Looking forward...
 
-Implement the program as a web application to enable convinient access on any platform.
+1. Implement the program as a web application to enable convinient access on any platform.
 
-Utilising artificial intelligence to identify and update skills database with new skills required in the future.
+2. Utilising artificial intelligence to identify and update skills database with new skills required in the future.
 
-Find, assist users to craft resume and submit them to the company.
+3. Find, assist users to craft resume and submit them to the company.
 
-Summarised fact sheet of the company to prepare users for their interview.
+4. Summarised fact sheet of the company to prepare users for their interview.
 
 
 
