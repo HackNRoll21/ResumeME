@@ -35,7 +35,7 @@ To craft the path for each individual to find and be prepared for embarking on t
 
 Looking forward...
 
-1. Implement the program as a web application to enable convinient access on any platform.
+1. Implement the program as a web application to enable convenient access on any platform.
 
 2. Utilising artificial intelligence to identify and update skills database with new skills required in the future.
 
