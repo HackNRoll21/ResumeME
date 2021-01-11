@@ -5,22 +5,27 @@ gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
 import subprocess
 import json
+settings = Gtk.Settings.get_default()
+settings.set_property("gtk-theme-name", "Adwaita")
+settings.set_property("gtk-font-name", "DejaVu Sans 30")
+settings.set_property("gtk-application-prefer-dark-theme", True)
 
 class ourwindow(Gtk.Window):
     def __init__(self):
-        Gtk.Window.__init__(self, title="Resumeme")
+        Gtk.Window.__init__(self, title="ResumeME")
         Gtk.Window.set_default_size(self, 400,325)
         Gtk.Window.set_position(self, Gtk.WindowPosition.CENTER)
 
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         self.add(vbox)
         self.entry = Gtk.Entry()
+        self.entry.set_text("Enter internsg link here")
         vbox.pack_start(self.entry, True, True, 0)
 
         hbox = Gtk.Box(spacing=6)
         vbox.pack_start(hbox, True, True, 0)
 
-        button1 = Gtk.Button("Click when done inserting link")
+        button1 = Gtk.Button.new_with_label("Click when done inserting link")
         button1.connect("clicked", self.whenbutton1_clicked)
         hbox.pack_start(button1, True, True, 0)
         
@@ -43,7 +48,7 @@ class TreeViewFilterWindow(Gtk.Window):
         self.liststore = Gtk.ListStore(str, str)
         for key,value in data.items():
             self.liststore.append([key,value])
-        treeview = Gtk.TreeView(model=self.liststore)
+        treeview = Gtk.TreeView(model=self.liststore) 
         renderer_num = Gtk.CellRendererText()
         column_num = Gtk.TreeViewColumn("Number", renderer_num, text=0)
         treeview.append_column(column_num)
