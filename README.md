@@ -41,15 +41,15 @@ run "python GUI.py" in the terminal.
 4. Summarised fact sheet of the company to prepare users for their interview.
 
 # FAQ
-**Q:** Want to add a skill?
-**A:** Add the skill in a new line to "skills.txt"
+**Q:** Want to add a skill?  
+**A:** Add the skill in a new line to [skills.txt](skills.txt)
 
-**Q:** What do I need to run the program?
+**Q:** What do I need to run the program?  
 **A:** 
 Python 3  
 Scrapy  
 Selenium
 
-**Q:** Is this project featured elsewhere?
+**Q:** Is this project featured elsewhere?  
 **A:**
 Yes, this project is also featured on [Devpost](https://devpost.com/software/resumeme) for Hack&Roll 2021
