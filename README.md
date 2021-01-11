@@ -1,16 +1,16 @@
-#Objective of ResumeME
+# Objective of ResumeME
 
 To craft the path for each individual to find and be prepared for embarking on their journey to success with the perfect job.
 
-#Inspiration
+# Inspiration
 
 The typical job seeker spends **3 - 4 hours** preparing and submitting 1 application while 72% of employers spend **less than 15 minutes** reviewing an application. Additionally, there are articles indicating that one should reduce the number of applications they send out, but rather spend that time customising their application for every position.
 
-#What it does
+# What it does
 
 ResumeME allows **quick customisation** of one's resume to fit the job position. This ensures that the user will have a **customised version of his/her resume** for every job, increasing the chances for an interview and smoothening the job application process.
 
-#How to run the program?
+# How to run the program?
 
 1. Execute the Graphical User Interface file.
 run "python GUI.py" in the terminal.
@@ -30,7 +30,7 @@ run "python GUI.py" in the terminal.
 
 ![](pics/4.png)
 
-#Looking forward...
+# Looking forward...
 
 1. Implement the program as a web application to enable convenient access on any platform.
 
@@ -40,7 +40,7 @@ run "python GUI.py" in the terminal.
 
 4. Summarised fact sheet of the company to prepare users for their interview.
 
-#FAQ
+# FAQ
 **Q:** Want to add a skill?
 **A:** Add the skill in a new line to "skills.txt"
 
